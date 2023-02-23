@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import { XMarkIcon, SunIcon, MoonIcon, SwatchIcon } from '@heroicons/react/24/outline'
 
 // Custom hooks
-import {useLocalStorage} from '../hooks/useLocalStorage';
+import {useLocalStorage} from '../Hooks/UselocalStorage';
 
 export const ThemeSwitcher = () => {
     const [hue, setHue] = useLocalStorage('react-todo.color', '240')
