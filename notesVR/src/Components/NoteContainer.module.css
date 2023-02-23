@@ -6,3 +6,12 @@
   list-style-type: none;
   gap: 1.5em;
   }
+  @media only screen and (max-width: 600px) {
+    .note {
+      padding-right: 7rem;
+      
+      
+      list-style-type: none;
+      
+      }
+  }
