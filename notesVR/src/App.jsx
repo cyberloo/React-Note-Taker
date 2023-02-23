@@ -3,11 +3,11 @@ import { useState } from 'react';
 import { Form } from './Components/Form';
 import { NoteContainer } from './Components/NoteContainer';
 import { EditForm } from './Components/EditForm';
-import { UseLocalStorage } from './Hooks/UselocalStorage';
+import { useLocalStorage } from './Hooks/UseLocalStorage';
 import { ThemeSwitcher } from './Components/ThemeSwitcher';
 
 function App() {
-  const [notes, setNotes] = UseLocalStorage('todoVR.notes', [])
+  const [notes, setNotes] = useLocalStorage('todoVR.notes', [])
   const [previousFocusEl, setPreviousFocusEl] = useState(null)
   const [editedNote, setEditedNote] = useState(null)
   const [isEditing, setIsEditing] = useState(false)
