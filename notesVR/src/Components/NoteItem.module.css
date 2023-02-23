@@ -1,0 +1,52 @@
+.note {
+    
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: space-between;
+    gap: .6em;
+    font-size: var(--_size);
+    border: .2em solid hsl(var(--muted) / 0.8);
+    padding: .6em;
+    border-radius: calc(var(--_radius) * 2);
+  }
+  
+    .note-group {
+      
+      align-items: center;
+      --taskgroup-gap: .5em;
+      gap: var(--taskgroup-gap);
+    }
+  
+  .btnContainer {
+    padding: .5rem 6rem;
+    display: flex;
+  }
+  
+  .delete {
+    --accent: var(--accent1);
+  }
+  
+  .loading {
+    color: hsl(var(--accent));
+    font-size: var(--_size);
+    font-weight: bold;
+    animation: pulse 2s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+  
+    0%,
+    100% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .error {
+    color: hsl(var(--accent1));
+    font-size: var(--_size);
+    text-align: center;
+  }

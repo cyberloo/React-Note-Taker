@@ -1,0 +1,8 @@
+.note {
+  padding-left: 7.5rem;
+  
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 1.5em;
+  }
