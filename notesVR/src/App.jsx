@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Form } from './Components/Form';
 import { NoteContainer } from './Components/NoteContainer';
 import { EditForm } from './Components/EditForm';
-import { useLocalStorage } from './Hooks/UseLocalStorage';
+import { useLocalStorage } from './Hooks/useLocalStorage';
 import { ThemeSwitcher } from './Components/ThemeSwitcher';
 
 function App() {
